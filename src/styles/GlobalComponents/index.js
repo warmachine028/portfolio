@@ -73,6 +73,7 @@ export const SectionText = styled.p`
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
+    text-align: center;
   }
 `
 
@@ -185,15 +186,15 @@ export const ButtonBack = styled.div`
   overflow: hidden;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
 
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.md} {
     width: ${({ alt }) => alt ? '150px' : '184px'};
     height: ${({ alt }) => alt ? '52px' : '48px'};
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
     margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+  @media ${props => props.theme.breakpoints.sm} {
+    width: 95%;
     height: 32px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
@@ -237,11 +238,11 @@ export const ButtonFront = styled.button`
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
 
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.md} {
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.sm} {
     font-size: 14px;
   }
 `
@@ -259,11 +260,11 @@ export const LinkContainer = styled.div`
     cursor: pointer;
   }
 
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.md} {
     margin-left: ${({ large }) => large ? '16px' : '8px'};
 
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.sm} {
     margin-left: ${({ large }) => large ? '0' : '8px'};
   }
 `

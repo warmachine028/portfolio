@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { SiHackerrank, SiLeetcode } from 'react-icons/si';
 import { DiCssdeck } from 'react-icons/di';

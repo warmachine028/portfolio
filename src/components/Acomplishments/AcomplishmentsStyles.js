@@ -38,6 +38,7 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
+    width: 95%;
     height: 110px;
     padding: 12px;
     

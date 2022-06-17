@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
-  li{
+  li {
     list-style: none;
   }
 
