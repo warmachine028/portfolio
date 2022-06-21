@@ -40,6 +40,7 @@
 - Minimalist Webpage Design
 - Contains Card Style Projects 
 - Background Animations
+- Fully responsive on all devices
 
 ## Tech Stack Used
 
