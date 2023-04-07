@@ -1,7 +1,7 @@
     updated: Tuesday, 21st June 2022
 
 <div align=center>
-    <a href="https://portfolio-pritam.netlify.app/">
+    <a href="https://pritamkundu.tech/">
         <img width=200 src="public/images/icon.png" alt="Portfolio">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> Made with NextJS </p>
@@ -10,7 +10,7 @@
     </a>
 </div>
 
-# [Personal Portfolio](https://portfolio-pritam.netlify.app)
+# [Personal Portfolio](https://pritamkundu.tech)
 
 ## What's new?
 
