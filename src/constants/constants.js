@@ -41,8 +41,8 @@ export const projects = [
 			Enjoy fast and reliable delivery to your doorstep, and experience the ultimate pizza delivery service.",
 		image: "/images/pizzone.png",
 		tags: ["HTML", "CSS", "JavaScript"],
-		source: "https://github.com/warmachine028/portfolio-old",
-		visit: "https://warmachine028.github.io/portfolio-old/",
+		source: "https://github.com/warmachine028/pizzone",
+		visit: "https://pizzone.vercel.app",
 		id: 3,
 	},
 	{
@@ -55,7 +55,7 @@ export const projects = [
 		image: "/images/K_Means.png",
 		tags: ["Python", "MachineLearning", "K Means Clustering"],
 		source: "https://github.com/warmachine028/KMeansExample",
-		visit: "https://warmachine028.github.io/KMeansExample/",
+		visit: "https://warmachine028.github.io/KMeansExample",
 		id: 4,
 	},
 	{
@@ -93,7 +93,7 @@ export const projects = [
 		tags: ["React", "React-Router", "Netlify", "MaterialUI"],
 		source: "https://github.com/warmachine028/uemcrp",
 		visit: "https://uemcrp.netlify.app",
-		id: 6,
+		id: 7,
 	},
 ]
 
