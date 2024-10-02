@@ -1,69 +1,79 @@
-    updated: Tuesday, 21st June 2022
+# **Build your portfolio with Once UI's Magic Portfolio**
 
-<div align=center>
-    <a href="https://pritamkundu.tech/">
-        <img width=200 src="public/images/icon.png" alt="Portfolio">
-    </a>
-    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> Made with NextJS </p>
-    <a href="https://app.netlify.com/sites/portfolio-pritam/deploys">
-    <img src="https://api.netlify.com/api/v1/badges/b1e9e225-2461-41ab-8ffd-ac4b2ca87157/deploy-status" alt="Netlify Status">
-    </a>
-</div>
+Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
 
-# [Personal Portfolio](https://pritamkundu.tech)
+**1. Clone the repository**
+```
+git clone https://github.com/once-ui-system/magic-portfolio.git
+```
 
-## What's new?
+**2. Install dependencies**
+```
+npm install
+```
 
--   Added Projects
--   Fixed CSS for Mobile View
--   Updated Achievements
+**3. Run dev server**
+```
+npm run dev
+```
 
-## Table of Contents
--   [Introduction](#introduction)
--   [Featues](#features)
--   [Tech Stack Used](#tech-stack-used)
--   [Previews](#previews)
--   [License](#license)
+**4. Edit config**
+```
+src/app/resources/config
+```
 
----
+**5. Edit content**
+```
+src/app/resources/content
+```
 
-## Introduction
+**6. Create blog posts / projects**
+```
+Add a new .mdx file to src/app/blog/posts or src/app/work/projects
+```
 
--   My earlier Portfolio was just a basic HTML-CSS-Javascript bsed website.
--   That was made in just a day for a web developement contest.
--   This is a more refined mature Portfolio built with ReactJS.
+# **Features**
 
----
+## **Once UI**
+- All tokens, components & features of [Once UI](https://once-ui.com) (v0.3.1)
 
-## Features
+## **SEO**
+- Automatic open-graph and X image generation with next/og
+- Automatic schema and metadata generation based on the content file
 
-- Minimalist Webpage Design
-- Contains Card Style Projects 
-- Background Animations
-- Fully responsive on all devices
+## **Design**
+- Responsive layout optimized for all screen sizes
+- Timeless design without heavy animations and motion
+- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
 
-## Tech Stack Used
+TIP:
+You try pre-built designs by changing the imports for the config and content in src/app/resources/index.ts
 
--   Styled Components & React Icons : Styling & Icons
--   React: FrontEnd Developement
--   Netlify: For hosting the frontEnd
+## **Content**
+- Render sections conditionally based on the content file
+- Enable or disable pages for blog, work, gallery and about / CV
+- Generate and display social links automatically
+- Set up password protection for URLs
 
----
+# **Authors**
 
-## Previews
+Connect with us on X or LinkedIn.
 
-- Desktop Preview
-    ![Desktop-Preview](public/images/portfolio.png)
+Lorant Toth: [X](https://x.com/lorant_one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
+Zsofia Komaromi: [X](https://x.com/zsofiakomaromi), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
 
--   Mobile Preview  
-    ![Mobile-Preview](public/images/mobile-preview.png)
+# **Get involved**
 
----
+- Join the [Once UI Discord server](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with designers and developers!
+- Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
 
-## License
+# **License**
 
--   see [LICENSE]
+Distributed under the CC BY-NC 4.0 License.
+- Commercial usage is not allowed.
+- Attribution is required.
 
-**Pritam, 2022**  
+See `LICENSE.txt` for more information.
 
-[license]: https://github.com/warmachine028/portfolio/blob/main/LICENSE
+# **Deploy with Vercel**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=https%3A%2F%2Fonce-ui.com%2Fimages%2Ftemplates%2Fmagic-portfolio%2Fcover.jpg)
