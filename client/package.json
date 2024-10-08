@@ -15,7 +15,7 @@
 		"classnames": "^2.5.1",
 		"cookie": "^0.7.1",
 		"gray-matter": "^4.0.3",
-		"next": "^14.2.14",
+		"next": "^14.2.15",
 		"next-mdx-remote": "^5.0.0",
 		"postcss": "^8.4.47",
 		"postcss-preset-env": "^10.0.6",
