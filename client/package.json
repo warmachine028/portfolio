@@ -11,7 +11,7 @@
 	"dependencies": {
 		"@floating-ui/react-dom": "^2.1.2",
 		"@mdx-js/loader": "^3.0.1",
-		"@next/mdx": "^14.2.14",
+		"@next/mdx": "^14.2.15",
 		"classnames": "^2.5.1",
 		"cookie": "^0.7.1",
 		"gray-matter": "^4.0.3",
