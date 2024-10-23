@@ -5,11 +5,11 @@ export async function POST(request: NextRequest) {
 	const body = await request.json()
 	const { password } = body
 	const correctPassword = 'password'
-
+	const cookieStore = await cookies()
 	if (password === correctPassword) {
 		const response = NextResponse.json({ success: true })
 
-		cookies().set('authToken', 'authenticated', {
+		cookieStore.set('authToken', 'authenticated', {
 			httpOnly: true,
 			secure: process.env.NODE_ENV === 'production',
 			maxAge: 60 * 60,

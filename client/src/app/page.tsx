@@ -1,4 +1,3 @@
-import React from 'react';
 
 import { Heading, Flex, Text, Button,  Avatar, RevealFx } from '@/once-ui/components';
 import { Projects } from '@/app/work/components/Projects';
