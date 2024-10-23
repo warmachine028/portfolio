@@ -8,7 +8,8 @@ const withMDX = mdx({
 });
 
 const nextConfig = {
-	pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+    pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+    
     experimental: {
         turbo: {
             rules: {
@@ -17,7 +18,8 @@ const nextConfig = {
                     as: "*.css",
                 },
             },
-        }
+        },
+        
     }
 } satisfies NextConfig
 
