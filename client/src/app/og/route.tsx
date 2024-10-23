@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 import { baseURL } from '@/app/resources'
 import { person } from '@/app/resources'
 
-export const runtime = 'edge'
+// export const runtime = 'edge'
 
 export async function GET(request: Request) {
 	let url = new URL(request.url)
