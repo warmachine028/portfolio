@@ -1,4 +1,4 @@
-    updated on: 14th November 2024, Thursday
+    updated on: 06th December 2024, Friday
 
 <div align=center>
     <a href="https://github.com/warmachine028/portfolio">
@@ -126,4 +126,4 @@
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 [License]: https://github.com/warmachine028/portfolio/blob/main/LICENSE
 
-<!-- 14/11/24 -->
+<!-- 06/12/24 -->
