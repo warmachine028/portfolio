@@ -31,7 +31,7 @@
 	},
 	"devDependencies": {
 		"@csstools/postcss-global-data": "^4.0.0",
-		"@eslint/js": "^9.13.0",
+		"@eslint/js": "^10.0.1",
 		"@types/cookie": "^1.0.0",
 		"@types/node": "^25.0.1",
 		"@types/react": "^19.0.1",
