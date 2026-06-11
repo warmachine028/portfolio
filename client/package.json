@@ -27,7 +27,7 @@
 		"react-masonry-css": "^1.0.16",
 		"remark": "^15.0.1",
 		"remark-html": "^16.0.1",
-		"sharp": "^0.34.0"
+		"sharp": "^0.35.1"
 	},
 	"devDependencies": {
 		"@csstools/postcss-global-data": "^4.0.0",
